@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>desktop_index</title>
+    <title>catalogue</title>
+
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,69 +48,95 @@
                             <li class="list"><a class="link_menu" href="#">Shirts</a></li>
                         </ul>
                     </details>
-
                 </li>
                 <li class="right_inner"><a href="#"><img src="img\personal_area.svg" alt=""></a></li>
                 <li class="right_inner"><a href="#"><img src="img\basket.svg" alt="basket"></a></li>
             </ul>
         </div>
     </nav>
-    <div class="banner">
-        <div class="container">
-            <img src="img\man_in_jacket.png" class="man" alt="man">
-            <div class="banner_text">
-                <p class="first_text">the brand</p>
-                <p class="second_text">of luxerious
-                    <span class="third_text">fashion</span>
-                </p>
+    <div class="catalogue_header_background">
+        <div class="catalogue_header container">
+            <div class="page_name">NEW ARRIVALS </div>
+            <div class="name_road">
+                <ul class="step_link">
+                    <li class="step_before"><a class="step_before_link" href="#">HOME /</a></li>
+                    <li class="step_before"><a class="step_before_link" href="#">MEN /</a></li>
+                    <li class="last_step"><a class="last_step_link" href="#">NEW ARRIVALS</a></li>
+                </ul>
             </div>
         </div>
+
     </div>
-    <nav class="mid_nav container">
-        <div class="mid">
-            <div class="mini_card">
-                <a href="#"><img src="img\for_women.jpg" alt="for_women" class="img"></a>
-                <div>
-                    <a class="text_block" href="#">
-                        <p class="article">30% off</p>
-                        <p class="text">for women</p>
-                    </a>
-                </div>
-            </div>
-            <div class="mini_card">
-                <a href="#"><img src="img\for_man.jpg" alt="for_women" class="img"></a>
-                <div>
-                    <a class="text_block" href="#">
-                        <p class="article">hot deal</p>
-                        <p class="text">for men</p>
-                    </a>
-                </div>
-            </div>
-            <div class="mini_card">
-                <a href="#"><img src="img\for_kids.jpg" alt="for_women" class="img"></a>
-                <div>
-                    <a class="text_block" href="#">
-                        <p class="article">new arrivals</p>
-                        <p class="text">for kids</p>
-                    </a>
-                </div>
-            </div>
-            <div class="card">
-                <a href="#"><img src="img\accesories.jpg" alt="for_accesories" class="img"></a>
-                <div>
-                    <a href="#" class="text_block">
-                        <p class="article">luxirous & trendy</p>
-                        <p class="text">accesories</p>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </nav>
     <section>
-        <div class="section_text">
-            <h3 class="h_section">Fetured Items</h3>
-            <p class="p_section">Shop for items based on what we featured in this week</p>
+        <div class="filters container">
+            <div class="filter">
+                <details>
+                    <summary class="filter_font">filter<i class="fa-solid fa-align-left"></i>
+                    </summary>
+                    <ul class="filter_details">
+                        <div class="left_block">
+                            <p class="text_left_block">CATEGORY</p>
+                        </div>
+                        <li class="li_bottom_block"><a class="text_bottom_block" href="#">Accessories</a></li>
+                        <li class="li_bottom_block"><a class="text_bottom_block" href="#">Bags</a></li>
+                        <li class="li_bottom_block"><a class="text_bottom_block" href="#">Denim</a></li>
+                        <li class="li_bottom_block"><a class="text_bottom_block" href="#">Hoodies & Sweatshirts</a></li>
+                        <li class="li_bottom_block"><a class="text_bottom_block" href="#">Jackets & Coats</a></li>
+                        <li class="li_bottom_block"><a class="text_bottom_block" href="#">Polos</a></li>
+                        <li class="li_bottom_block"><a class="text_bottom_block" href="#">Shirts</a></li>
+                        <li class="li_bottom_block"><a class="text_bottom_block" href="#">Shoes</a></li>
+                        <li class="li_bottom_block"><a class="text_bottom_block" href="#">Sweaters & Knits</a></li>
+                        <li class="li_bottom_block"><a class="text_bottom_block" href="#">T-Shirts</a></li>
+                        <li class="li_bottom_block"><a class="text_bottom_block" href="#">Tanks</a></li>
+                        <div class="left_block">
+                            <p class="text_left_block">BRAND</p>
+                        </div>
+                        <div class="left_block">
+                            <p class="text_left_block">DESIGNER</p>
+                        </div>
+                    </ul>
+                </details>
+            </div>
+            <ul class="center_filter">
+                <details>
+                    <summary class="center_filter_text">trending now<i class="fa-solid fa-angle-down"></i>
+                    </summary>
+                    <ul class="filter_checkbox">
+                        <li class="checkbox_text"><input type="checkbox" value="trend 1"> trend 1</li>
+                        <li class="checkbox_text"><input type="checkbox" value="trend 1"> trend 2</li>
+                        <li class="checkbox_text"><input type="checkbox" value="trend 1"> trend 3</li>
+                        <li class="checkbox_text"><input type="checkbox" value="trend 1"> trend 4</li>
+                        <li class="checkbox_text"><input type="checkbox" value="trend 1"> trend 5</li>
+                    </ul>
+                </details>
+                <details>
+                    <summary class="center_filter_text">size<i class="fa-solid fa-angle-down"></i>
+                    </summary>
+                    <ul class="filter_checkbox_second">
+                        <li class="checkbox_text"><input type="checkbox" value="trend 1"> xs</li>
+                        <li class="checkbox_text"><input type="checkbox" value="trend 1"> s</li>
+                        <li class="checkbox_text"><input type="checkbox" value="trend 1"> m</li>
+                        <li class="checkbox_text"><input type="checkbox" value="trend 1"> l</li>
+                        <li class="checkbox_text"><input type="checkbox" value="trend 1"> xl</li>
+                    </ul>
+                </details>
+                <details>
+                    <summary class="center_filter_text">price<i class="fa-solid fa-angle-down"></i>
+                    </summary>
+                    <ul class="filter_checkbox_third">
+                        <li class="checkbox_text"><input type="checkbox" value="trend 1"> 100-200</li>
+                        <li class="checkbox_text"><input type="checkbox" value="trend 1"> 200-500</li>
+                        <li class="checkbox_text"><input type="checkbox" value="trend 1"> 500-1000</li>
+                        <li class="checkbox_text"><input type="checkbox" value="trend 1"> 1000-3000</li>
+                    </ul>
+                </details>
+            </ul>
+            <div class="invisible">
+
+            </div>
+
         </div>
+
         <div class="shop_card container">
             <div class="shop_card_1">
                 <a href="#"><img src="img\shop_card_1.jpg" alt="shop_card">
@@ -165,23 +192,21 @@
                 </p>
             </div>
 
-            <div class="shop_card container">
-                <div class="shop_card_1">
-                    <a href="#"><img src="img\shop_card_5.jpg" alt="shop_card">
-                        <h3 class="shop_card_article">ELLERY X M'O CAPSULE</h3>
-                        <p class="shop_card_text">
-                            Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym
-                            Ellery
-                            teams
-                            up with Moda Operandi.
-                        </p>
-                    </a>
-                    <p class="cost">
-                        $52.00
-                    </p>
-                </div>
-            </div>
 
+            <div class="shop_card_1">
+                <a href="#"><img src="img\shop_card_5.jpg" alt="shop_card">
+                    <h3 class="shop_card_article">ELLERY X M'O CAPSULE</h3>
+                    <p class="shop_card_text">
+                        Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym
+                        Ellery
+                        teams
+                        up with Moda Operandi.
+                    </p>
+                </a>
+                <p class="cost">
+                    $52.00
+                </p>
+            </div>
             <div class="shop_card_1">
                 <a href="#"><img src="img\shop_card_6.jpg" alt="shop_card">
                     <h3 class="shop_card_article">ELLERY X M'O CAPSULE</h3>
@@ -195,9 +220,59 @@
                     $52.00
                 </p>
             </div>
-            <div class="buttom_container">
-                <a class="buttom_all_products" href="catalogue.html">Browse All Products</a>
+            <div class="shop_card_1">
+                <a href="#"><img src="img\shop_card_6.jpg" alt="shop_card">
+                    <h3 class="shop_card_article">ELLERY X M'O CAPSULE</h3>
+                    <p class="shop_card_text">
+                        Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
+                        teams
+                        up with Moda Operandi.
+                    </p>
+                </a>
+                <p class="cost">
+                    $52.00
+                </p>
             </div>
+            <div class="shop_card_1">
+                <a href="#"><img src="img\shop_card_6.jpg" alt="shop_card">
+                    <h3 class="shop_card_article">ELLERY X M'O CAPSULE</h3>
+                    <p class="shop_card_text">
+                        Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
+                        teams
+                        up with Moda Operandi.
+                    </p>
+                </a>
+                <p class="cost">
+                    $52.00
+                </p>
+            </div>
+            <div class="shop_card_1">
+                <a href="#"><img src="img\shop_card_6.jpg" alt="shop_card">
+                    <h3 class="shop_card_article">ELLERY X M'O CAPSULE</h3>
+                    <p class="shop_card_text">
+                        Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
+                        teams
+                        up with Moda Operandi.
+                    </p>
+                </a>
+                <p class="cost">
+                    $52.00
+                </p>
+            </div>
+        </div>
+        <div class="page_number container">
+            <ul class="list_page_number">
+                <li><i class="fa-solid fa-angle-left"></i></li>
+                <li class="list_color_position">1</li>
+                <li class="list_color">2</li>
+                <li class="list_color">3</li>
+                <li class="list_color">4</li>
+                <li class="list_color">5</li>
+                <li class="list_color">6</li>
+                <li class="list_color">.....</li>
+                <li class="list_color">20</li>
+                <li><i class="fa-solid fa-angle-right"></i></li>
+            </ul>
         </div>
     </section>
     <footer>
@@ -268,6 +343,7 @@
         </div>
 
     </footer>
+
 </body>
 
 </html>
